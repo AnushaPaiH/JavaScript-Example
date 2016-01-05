@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+
+<script type="text/javascript">
+function myfunction()
+{
+	var win = window.open('about_us.html', '_blank');
+if(win){
+    //Browser has allowed it to be opened
+    win.focus();
+}else{
+    //Broswer has blocked it
+    alert('Please allow popups for this site');
+}
+}
+
+
+
+
+</script>
+
+</head>
+<body onload="myfunction();">
+
+<a href="home.html">home</a>
+<a href="about_us.html">about_us</a>
+<a href="contact.html">Contact</a>
+<a href="profile.html">Profile</a>
+
+</body>
+</html>
